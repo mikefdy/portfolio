@@ -1,12 +1,11 @@
-
+import React from 'react';
 import './App.css';
-import Counterfunction from './components/reacthook.js'
+import Scene from './components/Scene.js'
 
 function App() {
   return (
     <div className="App">
-      
-      <Counterfunction/>
+       <Scene/>
     </div>
   );
 }
