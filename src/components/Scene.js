@@ -17,12 +17,9 @@ export default function Scene() {
   return (
     <div className="scene-container">
       <Spline
-        scene="https://prod.spline.design/9PMQrISi0ljggzzI/scene.splinecode"
+        scene="https://prod.spline.design/mq7zbAxpi2eykbtO/scene.splinecode"
         onLoad={onLoad}
       />
-      <button style={{ position: "absolute" }} type="button" onClick={moveObj}>
-        Move Object
-      </button>
     </div>
   );
 }
